@@ -55,3 +55,9 @@ Check if correct URL / if you are on page containing h1 with the words prentatio
 
 LOGOUT FEATURE: 
 test if Log out button actually logs you out.
+
+
+
+Big tests: Registration(Filip), guestbook(Deblina), login(Loucmane),
+
+small tests: log out(Loucmane), presentation(Deblina) and start(Filip)
