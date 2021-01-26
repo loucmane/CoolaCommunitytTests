@@ -7,9 +7,9 @@ form.addEventListener("submit", event => {
   const password = data.get("password");
 
   if(username === "CoolUser" && password === "123123123") {
-    location.href = "http://localhost:5000/start.html"
+    location.href = "start.html"
   } else {
-    location.href = "http://localhost:5000/?e=wronglogin"
+    location.href = "?e=wronglogin"
   }
 });
 
