@@ -1,0 +1,57 @@
+1. LOGIN FEATURE
+    Test the login feature
+​
+    input username, input password and click login
+​
+    When it works and when it doesnt work
+
+    check validation/success: 
+    login using "CoolUser" "123123123"
+
+
+
+
+2. REGISTRATION FEATURE
+
+CHECK validations/fails:
+
+Test if the username is either too short or too long. 
+Test if email is using a valid format.
+Test if two password fields match.
+(check if there is error message)
+
+
+check validation/success: 
+
+test registering with "CoolUser" and "123123123"
+test using valid email format.
+Click the register button
+Test if site contains words "Anvädaren registrerad! Logga in här!"
+
+
+START FEATURE:
+
+Test if links are working correctly, click them, 
+and navigate to the corresponding
+page
+
+GUESTBOOK FEATURE:
+Validation/ Fail:
+Test if message shorter than 3 is considered too short.
+    subtask:
+    Test if pressing Posta posts anyways.
+Validation/success:
+If post is longer than 3 letters press post and test if it submits.
+
+Removebutton:
+Validation/fail:
+Test if button does not work.
+Validation/success:
+Test if button removes post.
+
+
+PRESENTATION FEATURE:
+Check if correct URL / if you are on page containing h1 with the words prentation
+
+LOGOUT FEATURE: 
+test if Log out button actually logs you out.
