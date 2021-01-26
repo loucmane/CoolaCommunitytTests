@@ -61,3 +61,5 @@ test if Log out button actually logs you out.
 Big tests: Registration(Filip), guestbook(Deblina), login(Loucmane),
 
 small tests: log out(Loucmane), presentation(Deblina) and start(Filip)
+
+// when authenticating if your test passed of failed use URL instead of selectors on the page
