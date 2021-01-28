@@ -102,4 +102,4 @@ describe("Account registration form", () => {
 
     });
 
-})
+});
