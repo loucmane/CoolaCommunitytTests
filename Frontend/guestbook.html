@@ -23,7 +23,7 @@
             })
 
 
-            const entries = JSON.parse(localStorage.getItem("guestbook"));
+            const entries = JSON.parse(localStorage.getItem("guestbook")) || [];
             const entriesDiv = document.querySelector("#entries")
             
             entries.forEach((entry, i) => {
