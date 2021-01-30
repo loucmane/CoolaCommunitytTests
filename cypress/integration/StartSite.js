@@ -1,4 +1,4 @@
-describe("Testing the links to the other html-files work", () => {
+describe("Testing the links on the start.html page", () => {
 
     it("Link validation which goes to the right path", () => {
        

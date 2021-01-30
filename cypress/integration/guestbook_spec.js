@@ -1,6 +1,6 @@
 describe("Guest book", () => {
 
-    it("contains less thn 3 letters", () => {
+    it("contains less than 3 letters", () => {
 
         cy.visit("/guestbook.html");
        

@@ -1,9 +1,9 @@
 describe("Guest book", () => {
 
-    it("contains less thn 3 letters", () => {
+    it("contains less than 3 letters", () => {
 
         cy.visit("/presentation.html");
        
-        cy.url().should('eq', Cypress.config().baseUrl + '/presentation.html').end();
+        cy.url().should('eq', Cypress.config().baseUrl + 'presentation.html').end();
     });
 });
