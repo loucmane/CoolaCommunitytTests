@@ -5,7 +5,7 @@ describe("Testing the links to the other html-files work", () => {
         cy.visit("/start.html");
         cy.url().should('include', '/start.html');
 
-
+        //Collect all the elements in the ul tag
         cy.get("ul").children();
         //Check the first element in the list and click on the link
         cy.get("li a").eq(0).click();
@@ -25,8 +25,12 @@ describe("Testing the links to the other html-files work", () => {
         cy.get("ul").children();
         //Check the last element in the ul list
         cy.get("li a").eq(2).click();
+        cy.url().should('include', '/');
 
-        cy.go("back").end();   
+        //Go back
+        cy.go("back");
+        //Control that you are back to the start.html page
+        cy.url().should('include', '/start').end();   
         
     });
 
